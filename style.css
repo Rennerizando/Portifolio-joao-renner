@@ -4,11 +4,28 @@
     background-color: #1b202e;
 	font-family: 'Century gothic';
 	text-decoration: none;
+	list-style: none;
 	
 	
 }
 
+.topo{
+	height: 45px;
+	display: flex;
+	justify-content: center;
 
+}
+.topo a{
+	color: aliceblue;
+}
+.topo ul li{
+	color: aliceblue;
+	margin-top: 13px;
+	font-size: 20px;
+	margin-left: 120px;
+	display: inline-block;
+    padding-right: 4px ;
+}
 
 .imagem-pro{
 	display: flex;
@@ -17,7 +34,7 @@
 	border-bottom: 1px solid white;
 }
 
-/*inicio do meu section oque*/
+/*inicio do meu section oque faço*/
 .corpo1{
 	border-bottom: 1px solid white;
 	color: aliceblue;
@@ -121,7 +138,7 @@ button.btn{
 	top: -70px;
 	position: relative;
 	font-size: 20px;
-	margin-left:450px;
+	margin-left:700px;
 	border-radius: 30px;
 	width: 450px;
 	height: 40px;
@@ -469,16 +486,16 @@ span{
 }
 
 .conteiner-btn .btn{
-	padding-top: 30px;
-	padding-bottom: 15px;
+	padding: 30px;
+	margin: auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	
+
 	
 }
 .botao{
 	
-	box-shadow:0.1em 0.1em 1em rgba(124, 246, 255, 0.192);
 	background: linear-gradient(90deg, rgb(55, 232, 255) 0%,  rgb(255, 0, 119) 180%);
 	border-radius: 25px;
 	width: 150px;
@@ -501,8 +518,8 @@ span{
 .botao:hover{
 	border-radius: 30px;
 	font-size: 18px;
-	width: 170px;
-	height: 50px;
+	width: 150px;
+	height: 40px;
 	transition: all .3s;
 }
 
@@ -516,4 +533,48 @@ span{
 	justify-content: center;
 	align-items: center;
 	margin-left: 850px;
+}
+
+
+
+.caixa-contato{
+	padding-left: 550px;
+	padding-top: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+}
+.h1contato{
+	font-size: 60px;
+	color: aliceblue;
+}
+
+.caixa-contato span{
+	font-size: 18px;
+	display: flex;
+	margin-left: 13px;
+}
+
+.caixa-contato a{
+	font-size: 20px;
+	color: aliceblue;
+}
+
+
+.socialicones{
+	margin-left: 550px;
+}
+
+.socialicones a{
+color: aliceblue;
+font-size: 35px;
+margin-left: 10px;
+}
+
+.img-contato img{
+	width: 30%;
+	margin-left: 1050px;
+	margin-top: -350px;
+
 }
