@@ -261,14 +261,14 @@ span{
 }
 @keyframes progress-animation1{
     0% { width: 5%; } 
-    100% { width: 60%}
+    100% { width: 75%}
 }
 
 
 
 .container2 {
 	box-shadow: 0.1em 0.1em 0.5em rgb(124, 246, 255);
-	margin: 0px;
+	margin-bottom: 20px;
 	text-align: center;
 	height: 150px;
 	width: 350px;
@@ -353,7 +353,7 @@ span{
 }
 @keyframes progress-animation5{
     0% { width: 5%; } 
-    100% { width: 20%}
+    100% { width: 40%}
 }
 
 
