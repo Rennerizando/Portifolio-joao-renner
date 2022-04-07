@@ -583,3 +583,151 @@ margin-left: 10px;
 
 
 /*Final DO MEU CONTATO*/
+
+
+
+/* COMEÇA MEU SOBRE */
+.main-sobre{
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 20px;
+	color: aliceblue;
+}
+
+
+.quemsou h1{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+}
+
+.main-sobre h2{
+	padding: 10px;
+	text-align: center;
+}
+p{
+	padding: 10px;
+}
+
+.formacao h2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.formacao{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 20px;
+	color: aliceblue;
+}
+
+
+
+.fomracao-skill-medio{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left:25vw;
+	width: 50%;
+
+}
+
+@keyframes progress-animation01{
+    0% { width: 10%; } 
+    100% { width: 100%;}
+}
+
+.formacao-container-lateral {
+	border: 1px solid rgb(122, 122, 122);
+	margin: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 2vh;
+	width: 10vw;
+	border-radius: 2px;
+    background-color: #CCC;
+    position: relative;
+	transition: all .2s ease;
+}
+.formacao-container-lateral .progresso-bar-lateral{
+	justify-content: center;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 2px;
+   height: 100%;
+   background: rgb(4, 149, 206);
+   animation: progress-animation01 1s forwards;
+   
+}
+
+.formacao-container-lateral-sem {
+	border: 1px solid rgb(204, 204, 204);
+	margin: 2px;
+	height: 2vh;
+	width: 10vw;
+	border-radius: 2px;
+    background-color: #CCC;
+    position: relative;
+	transition: all .2s ease;
+}
+.formacao-container-lateral-sem .progresso-bar-lateral-sem{
+	justify-content: center;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 0.562);
+   position: absolute;
+   border-radius: 2px;
+   height: 100%;
+   
+}
+
+.linguagem{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 20px;
+	color: aliceblue;
+}
+
+.historico{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 20px;
+	
+	color: aliceblue;
+}
+
+.historico-profissional{
+	color: aliceblue; 
+	text-align: center;
+	padding-top: 20px;
+	font-size: 30px;
+}
+.historico-full{
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.historico-full p{
+	margin-top: 30px;
+	
+	text-align: center;
+}
+
+.historico-full span{
+
+	margin-bottom: 50px;
+}
+
+/* TERMINA MEU SOBRE */
