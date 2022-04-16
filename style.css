@@ -692,10 +692,7 @@ p{
 
 
 @media screen and (min-width: 300px){
-	
-	header{
-		display: none;
-	}	
+		
 	
 	.corpo{
 	
@@ -703,15 +700,14 @@ p{
 	}
 
 	section .h2columns{
-		margin-top: 1vh;
+		margin-top: 8vh;
 	}
 
 	section .conteiners{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin-top: -4rem;
-		margin-bottom: 10rem;
+		margin-bottom: 3rem;
 	}
 
 	.conteirners .h3-midia{
@@ -721,10 +717,16 @@ p{
 		text-align: center;
 	}
 
-	
+	.socialicon2{
+		margin-left: 50px;
+	}
+
+	.socialicon1{
+		margin-left: 50px;
+	}
 
 	.desenvolvimento .span-dev{
-		padding-left: 265px;
+		padding-left: 150px;
 	}
 
 	.social h3{
