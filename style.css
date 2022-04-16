@@ -693,21 +693,24 @@ p{
 
 @media screen and (min-width: 300px){
 		
-	
+	header{
+		display: none;
+	}
 	.corpo{
 	
 		height: 27vh;
 	}
 
 	section .h2columns{
-		margin-top: 8vh;
+		margin-top: 1vh;
 	}
 
 	section .conteiners{
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		margin-bottom: 3rem;
+		margin-bottom: 10rem;
+		margin-top: -150px;
 	}
 
 	.conteirners .h3-midia{
@@ -741,7 +744,10 @@ p{
 	}
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 1920px){
+	header{
+		display: block;
+	}
 	.butao{
 		margin-left: 480px;
 	}	
