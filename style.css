@@ -688,3 +688,54 @@ p{
 }
 
 /* TERMINA MEU SOBRE */
+
+@media screen and (min-width: 300px){
+	
+	header{
+		display: none;
+	}	
+	
+	.corpo{
+	
+		height: 27vh;
+	}
+
+	section .h2columns{
+		margin-top: 1vh;
+	}
+
+	section .conteiners{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-top: -4rem;
+		margin-bottom: 10rem;
+	}
+
+	.conteirners .h3-midia{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		text-align: center;
+	}
+
+	
+
+	.desenvolvimento .span-dev{
+		padding-left: 265px;
+	}
+
+	.social h3{
+		display: flex;
+		flex-direction: column;
+		margin-right:100px ;
+	}
+
+	
+
+	.butao .btn{
+		margin-left: 260px;
+		height: 60px;
+		width: 450px
+	}
+}
