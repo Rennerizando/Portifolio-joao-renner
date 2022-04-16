@@ -725,9 +725,6 @@ p{
 		margin-left: 50px;
 	}
 
-	.desenvolvimento .span-dev{
-
-	}
 
 	.social h3{
 		display: flex;
@@ -741,5 +738,14 @@ p{
 		margin-left: 260px;
 		height: 60px;
 		width: 450px
+	}
+}
+
+@media screen and (min-width: 300px){
+	.butao{
+		margin-left: 480px;
+	}	
+	section .h2columns{
+		margin-top: 250px;
 	}
 }
