@@ -535,7 +535,7 @@ margin-left: 10px;
 .img-contato img{
 	width: 30%;
 	margin-left: 65vw;
-	margin-top: -50vh;
+	margin-top: -40vh;
 }
 
 
@@ -688,6 +688,8 @@ p{
 }
 
 /* TERMINA MEU SOBRE */
+
+
 
 @media screen and (min-width: 300px){
 	
